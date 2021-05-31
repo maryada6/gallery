@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{margin: 0;
+padding: 0;}
+
+html{
+    font-size: 16px;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    position: sticky;
+    z-index: 10;
+    top:0;
+}
+
+nav ul{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+
+header ul a{
+    text-decoration: none;
+    margin: 10px 7px;
+}
+
+.quote{
+    font-family: 'pattay', sans-serif;
+    text-align:center ;
+    font-size: 20px;
+}
+
+header ul li{
+    color: white;
+    padding: 0px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    border-radius: 5%;
+    border: 3px solid darkgoldenrod;
+    
+}
+
+.title{
+    background-color: aquamarine;
+    text-align: center;
+    font-size:60px;
+    width:95%;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.title span {
+    font-family: 'Pattaya', sans-serif;
+    border-bottom:solid 10px darkgoldenrod;
+}
+
+.container{
+    /* border:5px solid crimson; */
+    background-color:aquamarine;
+    color: aliceblue;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    margin: 25px 0;
+
+    
+}
+.column
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	width: 20%;
+    margin: 5px;
+    align-items: center;
+}
+.container img{
+   width:100%;
+   margin:3px 0px;
+    display: block;
+    border: 1px solid darkslateblue;
+
+}
+
+footer{
+    background-color: grey;
+    position: sticky;
+    z-index: 1;
+    bottom: 0;
+}
+footer p{
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    color:black;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    header ul li{
+        font-size: 8px;
+        padding: 2px;
+    }
+
+    .column{
+        width:80% ;
+    }
+
+    .quote{
+        font-size: 10px;
+    }
+  }
