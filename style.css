@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 *{margin: 0;
 padding: 0;}
 
@@ -33,9 +34,10 @@ header ul a{
 }
 
 .quote{
-    font-family: 'pattay', sans-serif;
+    font-family: 'Dancing Script', cursive;
     text-align:center ;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 
 header ul li{
@@ -94,6 +96,11 @@ header ul li{
    display: block;
    border: 1px solid darkslateblue;
 
+}
+
+hr{
+    height: 1px;
+    background-color: black;
 }
 
 footer{
