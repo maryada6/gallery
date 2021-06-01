@@ -23,7 +23,7 @@ header{
 nav ul{
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: right !important;
     list-style: none;
 }
 
@@ -87,13 +87,45 @@ header ul li{
     margin: 5px;
     align-items: center;
 }
+
+@keyframes updown {
+    0%{
+        width:90%;
+        opacity: 0.8;
+    }
+
+    50%{
+        width:80%;
+        opacity:0.6;
+    }
+    
+    
+    100%{
+        width:100%;
+        opacity:1;
+    }
+    
+
+}
+
+.animate{
+    animation: updown 0s ease-in-out 1.5s 1 normal;
+}
+.animate1{
+    animation: updown 0s  ease-in-out 1.5s 1 normal;
+}
+
 .container img{
    width:100%;
+   box-sizing: border-box;
    margin: 6px 0px;
    display: block;
    border: 1px solid darkslateblue;
+   animation: updown 2.5s ease-in-out 1.5s 1 normal;
 
 }
+
+
 
 hr{
     height: 1px;
