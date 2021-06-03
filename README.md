@@ -3,5 +3,6 @@ Used flexbox to add images and position them
 
 # gallery
  https://maryada6.github.io/gallery/
+ ![Screenshot](gallery1.png)
 
 
