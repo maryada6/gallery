@@ -3,6 +3,6 @@ Used flexbox to add images and position them
 
 # gallery
  https://maryada6.github.io/gallery/
- ![Alt text](https://github.com/maryada6/gallery/gallery1.png)
+ ![Alt text](https://github.com/maryada6/gallery/blob/main/gallery.png)
 
 
